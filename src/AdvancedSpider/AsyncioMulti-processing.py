@@ -63,4 +63,6 @@ if __name__ == "__main__":
     loop = asyncio.get_event_loop()
     loop.run_until_complete(main(loop))
     loop.close()
+
+    #最快的！
     print('Best Total time: %.1f s' % (time.time()-t1))
